@@ -10,7 +10,7 @@ const products = [
     id: 1,
     image:
       "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365359/e1ce63ff429a0c018fd6e2e5dd614458_oet8ty.png", // Replace with actual image URLs
-    name: "Monstera",
+    name: "Rose",
     description: "Indoor plant (Low maintenance)",
     rating: 4.9,
     actualPrice: 350,
@@ -30,7 +30,7 @@ const products = [
     id: 3,
     image:
       "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365160/daa994fdb511faa82ea79a5ef58fbb1a_uezbzj.png",
-    name: "Monstera",
+    name: "Jasmine",
     description: "Indoor plant (Low maintenance)",
 
     rating: 4.9,
@@ -41,7 +41,7 @@ const products = [
     id: 4,
     image:
       "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365359/e1ce63ff429a0c018fd6e2e5dd614458_oet8ty.png", // Replace with actual image URLs
-    name: "Monstera",
+    name: "Aloe vera",
     description: "Indoor plant (Low maintenance)",
     rating: 4.9,
     actualPrice: 350,
@@ -51,7 +51,7 @@ const products = [
     id: 5,
     image:
       "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365317/7973d62829a030074ad8b6ad34_ezlwv5.png",
-    name: "Monstera",
+    name: "Lilly",
     description: "Indoor plant (Low maintenance)",
     rating: 4.9,
     actualPrice: 350,
@@ -61,7 +61,7 @@ const products = [
     id: 6,
     image:
       "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365160/daa994fdb511faa82ea79a5ef58fbb1a_uezbzj.png",
-    name: "Monstera",
+    name: "Desy",
     description: "Indoor plant (Low maintenance)",
 
     rating: 4.9,
@@ -72,7 +72,7 @@ const products = [
     id: 7,
     image:
       "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365359/e1ce63ff429a0c018fd6e2e5dd614458_oet8ty.png", // Replace with actual image URLs
-    name: "Monstera",
+    name: "Orchid",
     description: "Indoor plant (Low maintenance)",
     rating: 4.9,
     actualPrice: 350,
@@ -82,7 +82,7 @@ const products = [
     id: 8,
     image:
       "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365317/7973d62829a030074ad8b6ad34_ezlwv5.png",
-    name: "Monstera",
+    name: "Sward",
     description: "Indoor plant (Low maintenance)",
     rating: 4.9,
     actualPrice: 350,
@@ -92,7 +92,7 @@ const products = [
     id: 9,
     image:
       "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365160/daa994fdb511faa82ea79a5ef58fbb1a_uezbzj.png",
-    name: "Monstera",
+    name: "moneyPlant",
     description: "Indoor plant (Low maintenance)",
 
     rating: 4.9,
@@ -147,8 +147,7 @@ const ProductList = () => {
 
   const handleConfirmAddToCart = () => {
     console.log(`${selectedProduct.name} added to cart`);
-    setSelectedProduct(null); // Close the modal after confirming
-    // You can also add cart logic here, such as updating a global state
+    setSelectedProduct(null);
   };
 
   const indexOfLastProduct = currentPage * productsPerPage;

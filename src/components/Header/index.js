@@ -13,7 +13,7 @@ const Header = () => {
     <div>
       <div className="mobile-number">
         <p className="shipping">Free shipping on order above 999/-</p>
-        <p className="number">Call us on:+91 98765 43210</p>
+        <p className="number">Call us on:+91 98768 05120</p>
       </div>
       <header className="header">
         <div className="logo-route">
@@ -104,13 +104,13 @@ const Header = () => {
         <div className="header-right">
           <NavLink to="/profile" className="profile link">
             <p>
-              <GoPerson /> <br />
+              <GoPerson className="header-icon" /> <br />
               My Profile
             </p>
           </NavLink>
           <Link to="/cart" className="cart link">
             <p>
-              <BsCart2 />
+              <BsCart2 className="header-icon" />
               <sup className="cart-count-badge">3</sup>
               <br />
               Cart

@@ -5,11 +5,10 @@ const ProductModal = ({ product, onClose, onConfirm }) => {
   return (
     <div className="modal-overlay">
       <div className="modal-content">
-        
         <div className="container">
-            <button className="close-modal" onClick={onClose}>
-          &times;
-        </button>
+          <button className="close-modal" onClick={onClose}>
+            &times;
+          </button>
           <h4>Your Cart</h4>
           <hr />
 

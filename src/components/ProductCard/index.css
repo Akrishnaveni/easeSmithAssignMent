@@ -61,6 +61,13 @@
   border-radius: 10px;
   border: 1px solid #165315;
   width: 50%;
+  background-color: transparent;
+  color: #165315;
+}
+h4 {
+  padding: 0px;
+  margin-top: 25px;
+  margin-left: 0px;
 }
 
 .view-btn {

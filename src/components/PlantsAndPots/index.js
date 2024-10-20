@@ -14,7 +14,6 @@ const PlantsAndPotsPage = () => {
   return (
     <div>
       <div className="search-bar">
-        {/* Search icon (embedded inside the placeholder) */}
         <div>
           <TfiSearch className="search-icon" />
           <input

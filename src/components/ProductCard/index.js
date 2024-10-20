@@ -10,7 +10,7 @@ const ProductCard = ({ product, onAddToCartClick }) => {
   const navigate = useNavigate();
 
   const handleViewProduct = () => {
-    navigate("/thank-you");
+    navigate("/thankyou", { state: { productName: product.name } });
   };
 
   return (

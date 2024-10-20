@@ -3,12 +3,14 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import HomePage from "./components/Home";
 import PlantsAndPotsPage from "./components/PlantsAndPots";
+import ThankYouPage from "./components/ThankYouPage";
 import ProfilePage from "./components/Profile";
 import CartPage from "./components/Cart";
 import FAQPage from "./components/FAQ";
 import Services from "./components/Services";
 import Tools from "./components/Tools";
 import Ourstories from "./components/Ourstories";
+
 import Blog from "./components/Blog";
 import "./styles.css";
 

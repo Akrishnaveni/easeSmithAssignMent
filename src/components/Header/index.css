@@ -1,6 +1,6 @@
 .mobile-number {
   background-color: #165315;
-  width: 100vw;
+
   height: 33px;
   left: -37px;
   gap: 0px;
@@ -11,6 +11,7 @@
   align-items: center;
   text-align: center;
   padding-right: 8px;
+  width: 100vw;
 }
 .shipping {
   font-family: Inter;
@@ -72,7 +73,10 @@
   color: #333;
   font-weight: bold;
 }
-
+.header-icon {
+  width: 20px;
+  height: 20px;
+}
 .header-right {
   display: flex;
   align-items: center;

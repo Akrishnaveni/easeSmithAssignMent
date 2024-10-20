@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import "./index.css";
 
 const FilterSidebar = () => {
-  // State to track which sections are expanded
   const [expandedSections, setExpandedSections] = useState({});
 
-  // Toggle section visibility
   const toggleSection = (section) => {
     setExpandedSections((prev) => ({
       ...prev,
@@ -15,75 +13,78 @@ const FilterSidebar = () => {
 
   return (
     <div className="filter-sidebar">
-      <div className="filter-header">
-        <span>Filter</span>
-        <button className="clear-btn">CLEAR ALL</button>
-      </div>
       <div className="filter-section">
         <div className="filter-title">
-          <span>Type of Plants</span>
+          <span className="clear-btn">Filter</span>
+          <span className="clear-btn">CLEAR ALL</span>
+        </div>
+      </div>
+
+      <div className="filter-section">
+        <div className="filter-title">
+          <span className="clear-btn">Types of Plants</span>
           <span className="plus">{"+"}</span>
         </div>
       </div>
 
       <div className="filter-section">
         <div className="filter-title">
-          <span>Price</span>
+          <span className="clear-btn">Price</span>
           <span className="plus">{"+"}</span>
         </div>
       </div>
 
       <div className="filter-section">
         <div className="filter-title">
-          <span>Nursery</span>
+          <span className="clear-btn">Nursery</span>
           <span className="plus">{"+"}</span>
         </div>
       </div>
       <div className="filter-section">
         <div className="filter-title">
-          <span>Ideal Plants Location</span>
+          <span className="clear-btn">Ideal Plants Location</span>
           <span className="plus">{"+"}</span>
         </div>
       </div>
       <div className="filter-section">
         <div className="filter-title">
-          <span>Indoor/ Outdoor</span>
+          <span className="clear-btn">Indoor/ Outdoor</span>
           <span className="plus">{"+"}</span>
         </div>
       </div>
       <div className="filter-section">
         <div className="filter-title">
-          <span>Maintanance</span>
+          <span className="clear-btn">Maintanance</span>
           <span className="plus">{"+"}</span>
         </div>
       </div>
       <div className="filter-section">
         <div className="filter-title">
-          <span>Plant Size</span>
+          <span className="clear-btn">Plant Size</span>
           <span className="plus">{"+"}</span>
         </div>
       </div>
       <div className="filter-section">
         <div className="filter-title">
-          <span>Water schedule</span>
+          <span className="clear-btn"> Water schedule</span>
           <span className="plus">{"+"}</span>
         </div>
       </div>
       <div className="filter-section">
         <div className="filter-title">
-          <span>Color</span>
+          <span className="clear-btn">Color</span>
           <span className="plus">{"+"}</span>
         </div>
       </div>
       <div className="filter-section">
         <div className="filter-title">
-          <span>Seasonal</span>
+          <span className="clear-btn">Seasonal</span>
           <span className="plus">{"+"}</span>
         </div>
       </div>
       <div className="filter-section">
         <div className="filter-title">
-          <span>Light Efficient</span>
+          <span className="clear-btn">Light Efficient</span>
           <span className="plus">{"+"}</span>
         </div>
       </div>
