@@ -1,0 +1,22 @@
+.pagination-nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination-list {
+  display: inline-block;
+  padding: 0;
+}
+
+.pagination-item {
+  display: inline;
+}
+
+.pagination-item button {
+  background-color: #5cb85c;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  margin: 0 5px;
+  cursor: pointer;
+}

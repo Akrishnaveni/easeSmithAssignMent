@@ -1,0 +1,106 @@
+/* FilterSidebar.css */
+body {
+  font-family: Inter, Arial, sans-serif;
+}
+
+.filter-sidebar {
+  background-color: #f0ffe5;
+  color: #6e6e6e;
+
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Base styles (desktop or larger devices) */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.clear-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  color: #888;
+  cursor: pointer;
+}
+
+.filter-section {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.filter-title {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 16px;
+  color: #555;
+}
+
+.plus {
+  font-size: 18px;
+  color: #888;
+}
+
+/* Media Query for Tablets (medium screens) */
+@media (max-width: 768px) {
+  .filter-sidebar {
+    width: 250px; /* Narrow the sidebar on medium screens */
+    padding: 15px;
+  }
+
+  .filter-header {
+    font-size: 16px;
+  }
+
+  .filter-title {
+    font-size: 14px;
+  }
+
+  .clear-btn {
+    font-size: 12px;
+  }
+
+  .filter-section {
+    padding: 8px 0;
+  }
+}
+
+/* Media Query for Mobile Devices (small screens) */
+@media (max-width: 480px) {
+  .filter-sidebar {
+    width: 100%; /* Full width on mobile */
+    padding: 15px;
+    box-shadow: none; /* Remove shadow on mobile for a cleaner look */
+    border-radius: 0; /* No border-radius on mobile */
+  }
+
+  .filter-header {
+    font-size: 14px;
+    flex-direction: column; /* Stack filter title and clear button */
+    align-items: flex-start;
+  }
+
+  .clear-btn {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  .filter-section {
+    padding: 6px 0;
+  }
+
+  .filter-title {
+    font-size: 14px;
+  }
+}

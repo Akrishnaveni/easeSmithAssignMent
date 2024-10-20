@@ -1,0 +1,111 @@
+/* This is the overlay that disables interaction with the background */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it’s on top of other elements */
+  overflow: hidden;
+
+  /* Prevents scrolling of the background content */
+}
+
+/* The modal content itself */
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  /* Adjust to fit within the viewport height */
+  box-shadow: -4px 4px 4px 0px #00000040;
+}
+
+/* Close button on the modal */
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.container {
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+
+  background-image: url("https://res.cloudinary.com/dqupljwh9/image/upload/v1729405138/Ellipse_41_jhcomh.png"),
+    url("https://res.cloudinary.com/dqupljwh9/image/upload/v1729405079/Ellipse_40_xspuea.png");
+  background-position: top right, left bottom;
+  background-size: auto, 150px 250px;
+  background-repeat: no-repeat, no-repeat;
+  background-blend-mode: multiply;
+  margin-right: 0px;
+}
+
+h4 {
+  margin-bottom: 10px;
+  color: #333;
+  margin: 20px;
+}
+
+.order-success {
+  font-size: 34x;
+  color: #165315;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+
+.plant {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  background-image: url("https://res.cloudinary.com/dqupljwh9/image/upload/v1729405149/plant_1_wanwrd.png");
+  background-size: cover;
+}
+
+.message {
+  text-align: center;
+  color: #666;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+.message p {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 12px 0;
+  background-color: #165315;
+  font-family: Poppins, Arial;
+  color: #fff;
+
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  margin-top: 60px;
+}
+
+.btn:hover {
+  opacity: 1;
+}

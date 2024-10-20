@@ -1,0 +1,72 @@
+.product-card {
+  top: 790px;
+  left: 420px;
+  gap: 0px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 15px;
+}
+.image-container {
+  border: 1px solid #0000004d;
+  display: flex;
+  flex-direction: column;
+}
+.heart-icon {
+  align-self: flex-end;
+  padding: 5px;
+  width: 50px;
+  height: 20px;
+}
+.product-details {
+  align-self: flex-start !important;
+  padding-left: 8px;
+  color: #838383;
+}
+
+.product-image {
+  width: 255px;
+  height: 246px;
+  top: 818px;
+  left: 427px;
+  gap: 0px;
+  opacity: 0px;
+  padding: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.cart-btn {
+  background-color: #165315;
+  border: none;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 70%;
+}
+.rent-btn {
+  border-radius: 10px;
+  border: 1px solid #165315;
+  width: 50%;
+}
+
+.view-btn {
+  background: #165315;
+  width: 100%;
+  border: none;
+  padding: 6px;
+  color: white;
+}
