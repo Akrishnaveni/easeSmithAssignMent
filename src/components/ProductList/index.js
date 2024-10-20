@@ -138,11 +138,11 @@ const ProductList = () => {
   const [selectedProduct, setSelectedProduct] = useState(null);
 
   const handleAddToCartClick = (product) => {
-    setSelectedProduct(product); // Set the clicked product in state
+    setSelectedProduct(product);
   };
 
   const handleCloseModal = () => {
-    setSelectedProduct(null); // Close the modal
+    setSelectedProduct(null);
   };
 
   const handleConfirmAddToCart = () => {
@@ -173,7 +173,7 @@ const ProductList = () => {
           <ProductCard
             key={product.id}
             product={product}
-            onAddToCartClick={handleAddToCartClick} // Pass function to open modal
+            onAddToCartClick={handleAddToCartClick}
           />
         ))}
       </div>
