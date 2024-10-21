@@ -15,7 +15,7 @@ design.
 
 ## Tech Stack
 
-    HTML, CSS, ReactJs, React Router, React Hooks( useState,useEffect, useNavigate)
+    CSS, ReactJs, React Router, React Hooks( useState,useEffect, useNavigate)
 ## Completion Instructions
 
 ### Functionality
@@ -107,7 +107,9 @@ experience.
 
 
 ## Project Setup:
+
    Install dependencies using npm install.
+   
    Start the project with npm start.
 
 
