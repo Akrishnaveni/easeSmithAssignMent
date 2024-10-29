@@ -130,6 +130,130 @@ const products = [
     actualPrice: 350,
     specialPrice: 299,
   },
+  {
+    id: 13,
+    image:
+      "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365359/e1ce63ff429a0c018fd6e2e5dd614458_oet8ty.png", // Replace with actual image URLs
+    name: "Rose",
+    description: "Indoor plant (Low maintenance)",
+    rating: 4.9,
+    actualPrice: 350,
+    specialPrice: 299,
+  },
+  {
+    id: 14,
+    image:
+      "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365317/7973d62829a030074ad8b6ad34_ezlwv5.png",
+    name: "Monstera",
+    description: "Indoor plant (Low maintenance)",
+    rating: 4.9,
+    actualPrice: 350,
+    specialPrice: 299,
+  },
+  {
+    id: 15,
+    image:
+      "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365160/daa994fdb511faa82ea79a5ef58fbb1a_uezbzj.png",
+    name: "Jasmine",
+    description: "Indoor plant (Low maintenance)",
+
+    rating: 4.9,
+    actualPrice: 350,
+    specialPrice: 299,
+  },
+  {
+    id: 16,
+    image:
+      "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365359/e1ce63ff429a0c018fd6e2e5dd614458_oet8ty.png", // Replace with actual image URLs
+    name: "Aloe vera",
+    description: "Indoor plant (Low maintenance)",
+    rating: 4.9,
+    actualPrice: 350,
+    specialPrice: 299,
+  },
+  {
+    id: 17,
+    image:
+      "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365317/7973d62829a030074ad8b6ad34_ezlwv5.png",
+    name: "Lilly",
+    description: "Indoor plant (Low maintenance)",
+    rating: 4.9,
+    actualPrice: 350,
+    specialPrice: 299,
+  },
+  {
+    id: 18,
+    image:
+      "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365160/daa994fdb511faa82ea79a5ef58fbb1a_uezbzj.png",
+    name: "Desy",
+    description: "Indoor plant (Low maintenance)",
+
+    rating: 4.9,
+    actualPrice: 350,
+    specialPrice: 299,
+  },
+  {
+    id: 19,
+    image:
+      "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365359/e1ce63ff429a0c018fd6e2e5dd614458_oet8ty.png", // Replace with actual image URLs
+    name: "Orchid",
+    description: "Indoor plant (Low maintenance)",
+    rating: 4.9,
+    actualPrice: 350,
+    specialPrice: 299,
+  },
+  {
+    id: 20,
+    image:
+      "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365317/7973d62829a030074ad8b6ad34_ezlwv5.png",
+    name: "Sward",
+    description: "Indoor plant (Low maintenance)",
+    rating: 4.9,
+    actualPrice: 350,
+    specialPrice: 299,
+  },
+  {
+    id: 21,
+    image:
+      "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365160/daa994fdb511faa82ea79a5ef58fbb1a_uezbzj.png",
+    name: "moneyPlant",
+    description: "Indoor plant (Low maintenance)",
+
+    rating: 4.9,
+    actualPrice: 350,
+    specialPrice: 299,
+  },
+  {
+    id: 22,
+    image:
+      "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365359/e1ce63ff429a0c018fd6e2e5dd614458_oet8ty.png", // Replace with actual image URLs
+    name: "Monstera",
+    description: "Indoor plant (Low maintenance)",
+    rating: 4.9,
+    actualPrice: 350,
+    specialPrice: 299,
+  },
+  {
+    id: 23,
+    image:
+      "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365317/7973d62829a030074ad8b6ad34_ezlwv5.png",
+    name: "Monstera",
+    description: "Indoor plant (Low maintenance)",
+    rating: 4.9,
+    actualPrice: 350,
+    specialPrice: 299,
+  },
+  {
+    id: 24,
+    image:
+      "https://res.cloudinary.com/dqupljwh9/image/upload/v1729365160/daa994fdb511faa82ea79a5ef58fbb1a_uezbzj.png",
+    name: "Monstera",
+    description: "Indoor plant (Low maintenance)",
+
+    rating: 4.9,
+    actualPrice: 350,
+    specialPrice: 299,
+  },
 ];
 
 const ProductList = () => {

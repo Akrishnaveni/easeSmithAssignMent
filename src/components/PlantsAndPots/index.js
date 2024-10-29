@@ -63,7 +63,6 @@ const PlantsAndPotsPage = () => {
 
       <footer className="footer">
         <div className="footer-container">
-          {/* Subscribe to our Newsletter */}
           <div className="footer-section newsletter">
             <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
             <p>
@@ -163,6 +162,7 @@ const PlantsAndPotsPage = () => {
               </a>
             </div>
           </div>
+          <hr />
           <p>© 2023, chaperone.com All rights reserved.</p>
         </div>
       </footer>
